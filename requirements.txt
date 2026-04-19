@@ -1,0 +1,6 @@
+pytest>=8.2
+PyYAML>=6.0
+pydantic>=2.11.0
+mcp>=1.1.0
+allure-pytest>=2.13
+uiautomator2>=3.2

@@ -1,0 +1,10 @@
+[
+  {
+    "case_id": "home_structured_001",
+    "title": "启动后检查首页可达的最小烟测路径",
+    "preconditions": ["应用已安装"],
+    "steps": ["启动应用"],
+    "expected": ["进入首页", "首页关键元素存在", "当前activity正确"],
+    "ambiguities": []
+  }
+]

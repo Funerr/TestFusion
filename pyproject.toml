@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mobile-ai-test-framework"
+version = "0.1.0"
+description = "AI-assisted mobile automation testing framework for Android"
+requires-python = ">=3.11"
+dependencies = [
+  "pytest>=8.2",
+  "PyYAML>=6.0",
+  "pydantic>=2.7",
+  "allure-pytest>=2.13",
+  "uiautomator2>=3.2",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agent*", "skills*", "mcp_server*", "core*", "assertions*", "case_input*", "dsl*", "verification*"]

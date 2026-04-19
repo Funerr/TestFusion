@@ -1,0 +1,14 @@
+---
+description: 将原始测试用例编译为适合 Cursor 执行的 DSL 与 MCP 步骤。
+globs:
+  - "case_input/**/*.py"
+  - "dsl/**/*.py"
+  - "agent/planner.py"
+alwaysApply: false
+---
+# 用例编译规则
+
+当测试输入来自 Excel、文本或 JSON 时：
+- 优先抽取前置条件、操作步骤、预期结果
+- 将抽象动作保留为 DSL `ACTION`
+- 再交给技能层展开，不要在归一化阶段直接写死执行细节

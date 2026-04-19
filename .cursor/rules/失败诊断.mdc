@@ -1,0 +1,12 @@
+---
+description: 当执行失败或存在模糊结果时，补充 DSL、证据与复核建议。
+globs:
+  - "verification/**/*.py"
+  - "agent/**/*.py"
+alwaysApply: false
+---
+# 失败诊断规则
+
+当结果为 `FAIL` 或 `NEEDS_REVIEW`：
+- 报告里包含 DSL、关键动作、断言失败点
+- 建议优先引用截图、页面源、设备状态

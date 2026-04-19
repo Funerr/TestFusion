@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "mobile": {
+      "command": "/Users/funer/.pyenv/versions/3.13.8/bin/python3",
+      "args": [
+        "-u",
+        "/Users/funer/code/TestFusion/scripts/start_mcp_server.py",
+        "--stdio"
+      ],
+      "cwd": "/Users/funer/code/TestFusion",
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      }
+    }
+  }
+}

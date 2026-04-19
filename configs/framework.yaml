@@ -1,0 +1,17 @@
+app:
+  simulation_package: com.example.cursor.app
+  simulation_home_activity: com.example.cursor.MainActivity
+  real_package:
+  real_home_activity:
+execution:
+  backend: auto
+  retry_times: 2
+  default_timeout: 5
+  poll_interval: 0.2
+reporting:
+  artifact_root: artifacts
+  allure_dir: artifacts/allure-results
+  ai_report_dir: artifacts/ai_reports
+mcp:
+  host: 127.0.0.1
+  port: 8765

@@ -1,0 +1,14 @@
+---
+description: 处理鸿蒙 4.2 权限弹窗。
+globs:
+  - "skills/**/*.md"
+  - "mcp_server/**/*.py"
+  - "assertions/**/*.py"
+alwaysApply: false
+---
+# 鸿蒙权限弹窗规则
+
+当用例涉及权限操作时：
+- 使用 `mobile_handle_permission_dialog`
+- 允许、仅本次允许、使用时允许、拒绝要显式区分
+- 至少校验弹窗消失或权限结果

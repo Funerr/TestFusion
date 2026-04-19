@@ -1,0 +1,14 @@
+---
+description: 处理鸿蒙 4.2 的高频系统开关，包括 WLAN、定位、移动数据、NFC、热点、飞行模式、深色模式、自动旋转。
+globs:
+  - "skills/**/*.md"
+  - "core/device/**/*.py"
+  - "mcp_server/**/*.py"
+alwaysApply: false
+---
+# 鸿蒙系统开关规则
+
+当用例包含系统开关操作时：
+- 优先将抽象动作编译成 `mobile_toggle_system_setting`
+- 优先走控制中心
+- 最终必须有系统状态校验

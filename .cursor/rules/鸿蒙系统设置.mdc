@@ -1,0 +1,12 @@
+---
+description: 处理鸿蒙 4.2 的系统设置页导航。
+globs:
+  - "skills/**/*.md"
+  - "mcp_server/**/*.py"
+alwaysApply: false
+---
+# 鸿蒙系统设置规则
+
+当用例包含“打开设置”“进入某个设置页”时：
+- 优先生成 `mobile_open_system_settings` 或 `mobile_open_system_page`
+- 页面名称优先使用中文语义映射

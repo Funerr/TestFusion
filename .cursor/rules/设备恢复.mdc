@@ -1,0 +1,13 @@
+---
+description: 处理切后台、重拉起、恢复态验证。
+globs:
+  - "skills/**/*.md"
+  - "core/device/**/*.py"
+  - "core/executor/**/*.py"
+alwaysApply: false
+---
+# 设备恢复规则
+
+当用例涉及后台恢复时：
+- 将抽象步骤拆成 Home、拉起、状态校验
+- 不把“恢复正常”直接当成强断言，必须补充页面或状态证据
