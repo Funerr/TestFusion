@@ -1,13 +1,30 @@
+// {
+//   "mcpServers": {
+//     "mobile": {
+//       "command": "/Users/funer/.pyenv/versions/3.13.8/bin/python3",
+//       "args": [
+//         "-u",
+//         "/Users/funer/code/TestFusion/scripts/start_mcp_server.py",
+//         "--stdio"
+//       ],
+//       "cwd": "/Users/funer/code/TestFusion",
+//       "env": {
+//         "PYTHONUNBUFFERED": "1"
+//       }
+//     }
+//   }
+// }
+
 {
   "mcpServers": {
     "mobile": {
-      "command": "/Users/funer/.pyenv/versions/3.13.8/bin/python3",
+      "command": "C:\\Users\\fwx1184881\\AppData\\Local\\Programs\\Python\\Python313",
       "args": [
         "-u",
-        "/Users/funer/code/TestFusion/scripts/start_mcp_server.py",
+        "D:\\06_code\\mobile-ai-test-framework\\scripts\\start_mcp_server.py",
         "--stdio"
       ],
-      "cwd": "/Users/funer/code/TestFusion",
+      "cwd": "D:\\06_code\\mobile-ai-test-framework",
       "env": {
         "PYTHONUNBUFFERED": "1"
       }
